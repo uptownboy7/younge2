@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head> 
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title> 컨가드 </title>
+    <style>
+        @charset "utf-8";
+
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            color: #fff;
+            font: 1.0rem/130% "나눔명조"
+        }
+
+        #layout {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            background: url(/younge/webpages/images/contguard/working6.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        #ray {
+            border: 6px solid rgba(255, 255, 255, 0.5);
+            width: 96%;
+            height: 92%;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+        }
+
+        #snow {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            background: url(images/snow.gif);
+            z-index: 2;
+            opacity: 0.4
+        }
+
+
+
+        #word {
+            width: 40%;
+            height: 40%;
+            margin: auto;
+            z-index: 3;
+        }
+
+
+
+        #subject {
+            text-align: center;
+            z-index: 3;
+        }
+
+        #subject h2 {
+            border-bottom: 1px solid lightgray;
+            font-family: "나눔명조", "명조";
+            z-index: 3;
+        }
+
+        #pic {
+            margin: auto;
+            text-align: center;
+            margin-top: 20vh;
+        }
+
+        #pic a {
+            margin: auto;
+            text-align: center;
+        }
+
+        #pic a img {
+            width: 50%;
+        }
+
+        #words {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            left: 0;
+            bottom: 9%;
+            z-index: 3;
+        }
+
+        #words a {
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+
+        #pic2 {
+            width: 100%;
+            position: absolute;
+            bottom: 12%;
+            text-align: center;
+            display: none;
+        }
+
+        #pic2 p {
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        @media(max-width:1080px) {
+
+            html,
+            body {
+                color: #fff;
+                font: 1.1rem/130% "나눔명조"
+            }
+
+
+            #layout {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                background: url(/younge/webpages/images/working6-2.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            #subject h2 {
+                border-bottom: 1px solid lightgray;
+                font-family: "나눔명조", "명조"
+            }
+
+            #word {
+                width: 70%;
+                height: 70%;
+                margin: auto;
+                margin-top: 30%;
+            }
+
+
+        }
+
+    </style>
+    <link rel="shortcut icon" href="http://serenity90s.cafe24.com/younge/images/logo20_1.ico" alt="img">
+</head>
+
+<body>
+    <div id="layout">
+
+        <div id="word">
+            <div id="subject">
+                <h2>COMING SOON</h2>
+            </div>
+            <div id="pic">
+                <a><img src="images/logo.png" alt="img"> </a>
+            </div>
+
+            <div id="words">
+                <b>tel:</b> <a href="tel:1544-9253"> 1544-9253 </a>
+                <br>
+                <b>email: </b><a href="mailto:korea@contguard.com">korea@contguard.com </a>
+            </div>
+        </div>
+        <div id="snow">
+        </div>
+
+
+        <div id="pic2">
+            <p>Copyright: IoT Bridge Co., Ltd. 2019 All rights reserved</p>
+        </div>
+    </div>
+</body>
+<div id="ray">
+</div>
+
+
+</html>

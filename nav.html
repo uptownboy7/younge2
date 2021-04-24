@@ -1,0 +1,119 @@
+<head>
+
+</head>
+
+<body>
+    <header id="navheader">
+        <div class="wrapper">
+            <div>
+                <a href="/younge/"><img src="/younge/images/logo20_3.png" class="logo" /></a>
+                <a href="#none" class="hamburger" id="hamburger" onclick="ham()"><img src="/younge/images/button.png" class="hamburger_icon" alt="" title="" /></a>
+            </div>
+            <nav class="nav_pc">
+                <ul>
+                    <li class="nav_stories"><a href="/younge/index.html#trig">About young</a></li>
+                    <li class="nav_contguard"><a href="/younge/index.html#circleBar">Web Skills</a></li>
+                    <li class="nav_mission"><a href="/younge/index.html#sectionweb2">Web designs</a></li>
+                    <li class="nav_cooperation"><a href="/younge/index.html#sec8sub">Editorial</a></li>
+
+                    <li class="nav_news"><a href="/younge/portfolio/index.html">Portfolio<p>▼</p></a></li>
+                </ul>
+                <!--<div class="sns_btn">
+                <a href="javascript:;" onclick="contactPopup();"><img src="/younge/img/nav/tel.png" alt="img"></a>
+                <a href="#none"><img src="/younge/img/nav/facebook.png" alt="img"></a>
+            </div> -->
+            </nav>
+            <nav class="nav_m">
+                <div class="two-column-nav">
+                    <div>
+                        <ul>
+                            <li class="nav_stories"><a href="/younge/index.html">Home</a></li>
+                            <li class="nav_contguard"><a href="/younge/partners/index.html">My partners</a></li>
+                            <li class="nav_mission"><a href="/younge/contactme/index.html">Contact me</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="nav_cooperation"><a href="/younge/aboutyoung/index.html">About Young</a></li>
+                            <li class="nav_news2"><a href="/younge/portfolio/index.html">Portfolio</a>
+                                <ul>
+                                    <li><a href="/younge/webdesign/index.html">
+                                            <p>▶</p>Web Design
+                                        </a></li>
+                                    <li><a href="/younge/photograph/index.html">
+                                            <p>▶</p>Photographies
+                                        </a></li>
+                                    <li><a href="/younge/editorial/index.html">
+                                            <p>▶</p>Editorial
+                                        </a></li>
+                                    <li><a href="/younge/moviemaker/index.html">
+                                            <p>▶</p>Videos
+                                        </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="sns_btn">
+                <a href="tel:055-263-8963"><img src="/younge/img/nav/tel.png" alt="img"></a>
+                <a href="#none"><img src="/younge/img/nav/facebook.png" alt="img"></a>
+            </div>-->
+            </nav>
+        </div>
+        <div class="sub_menu">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="/younge/moviemaker/index.html">Videos</a></li>
+                    <li><a href="/younge/editorial/index.html">Editorial</a></li>
+                    <li><a href="/younge/photograph/index.html">Photographies</a></li>
+                    <li><a href="/younge/webdesign/index.html">Web Design</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".nav_news").hover(function() {
+                $(".sub_menu").css("display", "block");
+            }, function() {
+                $(".sub_menu").css("display", "none");
+            });
+
+            $(".sub_menu").hover(function() {
+                $(".sub_menu").css("display", "block");
+            }, function() {
+                $(".sub_menu").css("display", "none");
+            });
+        });
+
+        $("a").hover(function() {
+            $("header").addClass("active");
+        });
+
+        $("a").click(function() {
+            $("header").addClass("active");
+        });
+
+        $("#headimg>img").mouseenter(function() {
+            $("header").addClass("active");
+        });
+
+
+        $(".hamburger").click(function() {
+            $("header").addClass("active");
+        });
+        $(".hamburger").hover(function() {
+            $("header").addClass("active");
+        });
+
+        function ham() {
+            $(this).toggleClass('opned');
+            $('header nav').slideToggle();
+
+
+        }
+
+    </script>
+</body>

@@ -1,0 +1,1164 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font: 10pt/180% "noto sans kr";
+    color: black;
+    background: #191919;
+    ;
+    scroll-behavior: smooth;
+    margin: auto;
+    width: 100%;
+}
+
+/*
+::-webkit-scrollbar {width:7px; height: 0px}
+::-webkit-scrollbar-thumb {background: aliceblue; border-radius: 3px;} */
+a {
+    text-decoration: none;
+    font: bold 2.5rem/150% "Noto Sans KR";
+}
+
+a > span {
+    text-decoration: none;
+    font: bold 2.9rem/150% "Noto Sans KR";
+}
+
+.span1 {
+    color: #d2b369;
+}
+
+p {
+    font: bold 2.5rem/150% "abril fatface";
+}
+
+h1 {
+    font: 8.5rem/150% "abril fatface";
+}
+
+h2 {
+    font: 5.5rem/150% "abril fatface";
+}
+
+h3 {
+    font: 4.5rem/150% "abril fatface";
+}
+
+h4 {
+    font: 3.8rem/150% "abril fatface";
+}
+
+h5 {
+    font: 3.3rem/150% "abril fatface";
+}
+
+h6 {
+    font: 2.0rem/150% "abril fatface";
+}
+
+
+body > div {
+    width: 100%;
+    ;
+    background: #191919;
+    max-width: 1920px;
+    overflow: hidden;
+}
+
+#layout {
+    width: 100%;
+    margin: auto;
+    background: #191919;
+    overflow: hidden;
+}
+
+#nav-placeholder {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+/* 헤더 /////////////////////////*/
+
+
+
+
+
+/*헤더끝 /////////////////////////*/
+
+
+/*///////// 메인 ///////////*/
+
+
+
+
+
+
+
+/*///////// 섹션5///////////*/
+#section5 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background: #191919;
+}
+
+#section5 a {
+    font-size: 3.0rem;
+    line-height: 130%;
+}
+
+#section5 a span {
+    font-size: 2.1rem
+}
+
+#section5 > div {
+    width: 90%;
+    position: relative;
+    padding-left: 0px;
+    padding-top: 1%;
+    display: block;
+    margin: auto;
+    ;
+}
+
+#section5 > div:first-of-type h2 {
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "Abril Fatface";
+    text-align: center;
+    margin-top: 10%;
+}
+
+#section5 > div:first-of-type h4 {
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center
+}
+
+#section5 > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 12%;
+}
+
+#section5 > div > div > div:first-of-type > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+/* == 홈페이지 이미지*/
+#section5 > div > div {
+    overflow: hidden;
+    width: 50%;
+    position: relative;
+    margin-top: 15%;
+    border: 1px solid white;
+}
+
+#section5 > div > div:nth-of-type(1) {
+    margin-top: 9%;
+}
+
+#section5 > div > div:nth-of-type(2) {
+    margin-top: 9%;
+}
+
+
+#section5 > div > div > div:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: rgba(25, 25, 25, 0.7);
+}
+
+.grayback {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.yellow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*background: rgba(255,198,66,0.5) */
+    ;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: none;
+}
+
+.yellow > a {
+    width: 100%;
+    height: 100%;
+}
+
+.yellow > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.span {
+    color:
+}
+
+#section5 > div > div > div:last-of-type > a {
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 2%;
+    line-height: 130%;
+}
+
+
+
+#web1 {
+    float: left;
+}
+
+#web2 {
+    float: right;
+}
+
+#web3 {
+    float: left;
+}
+
+#web4 {
+    float: right;
+}
+
+#web5 {
+    float: left;
+}
+
+#web6 {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////// 섹션7 ///////////*/
+#section7 {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background: url("/younge/images/minipattern2.jpg");
+    ;
+    padding-top: 0px;
+    position: relative;
+}
+
+#section7 p {
+    font: 1.6rem/180% "Noto Sans Kr"
+}
+
+
+#section7 > div {
+    width: 60%;
+    max-width: 1000px;
+    ;
+    position: relative;
+    padding-left: 0px;
+    padding-top: 1%;
+    display: block;
+    margin: auto;
+    ;
+}
+
+#section7 > div:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#section7 > div:nth-of-type(2) {}
+
+#section7 > div:first-of-type h2 {
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "Abril Fatface";
+    margin-top: 10%;
+    display: none;
+}
+
+#section7 > div:first-of-type h4 {
+    font-weight: bold;
+    color: antiquewhite;
+    display: none;
+}
+
+
+/*********첫번째 단락*********/
+#whoo {
+    padding-left: 5%;
+    padding-top: 9%;
+}
+
+#whoo > h2 {
+    color: #f82c47;
+}
+
+#whowrapper {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 2px;
+    padding-bottom: 9%;
+    ;
+    flex-wrap: wrap;
+}
+
+#whowrapper > div {
+    padding: 2%;
+    width: 49.3%;
+}
+
+#whowrapper > div:last-of-type {
+    width: 99%
+}
+
+#whowrapper > div > div {
+    display: flex;
+    margin-top: 14%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+#whowrapper > div:last-of-type > div {
+    margin-top: 8%;
+    padding-bottom: 7%;
+    margin-bottom: 10%;
+    border-bottom: 1px solid #f82c47;
+}
+
+
+#whowrapper > div > div > div {
+    width: 45%;
+    padding-left: 2.5%
+}
+
+#whowrapper h4 {
+    text-align: left;
+    border-bottom: 2px solid #f82c47;
+    color: #f82c47;
+}
+
+
+.yell2 {
+    color: #f82c47;
+}
+
+#yell1 {
+    background: #f82c47;
+    color: #9e9e9e;
+}
+
+.pp > p {
+    font-weight: 300 !important;
+    color: black;
+}
+
+#who {
+    opacity: 0;
+}
+
+#who2 {
+    opacity: 0;
+}
+
+#who3 {
+    opacity: 0;
+}
+
+
+#who2 > h4 {
+    color: #f82c47;
+    padding-left: 5%;
+}
+
+
+#who2 p {
+    text-align: center;
+    line-height: 250%;
+    font: 1.4rem/180% "Noto Sans Kr"
+}
+
+#subject2 > p {
+    font-weight: 400;
+}
+
+.pp2 p {
+    font-weight: 300 !important;
+}
+
+
+#subject3 > p:first-of-type > span {
+    font-weight: normal;
+}
+
+/*************************/
+
+
+
+
+
+
+
+#section9 {
+    background: url("/younge/images/minipattern4.jpg");
+    width: 100%;
+    overflow: hidden;
+}
+
+#section9 > div {
+    width: 100%;
+    margin: auto;
+    padding-top: 6%;
+    padding-bottom: 6%
+}
+
+#section9 > div > h5 {
+    color: aliceblue;
+    font-family: "noto sans kr";
+    text-align: center;
+    font-weight: 100;
+}
+
+#section9 > div > h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#section9 > div > h2 > span {
+    border-bottom: 3px double aliceblue;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*비디오 슬라이더*/
+.slidego {
+    animation-name: slidego;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slidego {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%, 50%);
+    }
+}
+
+/*비디오 슬라이더끝*/
+
+
+/*비디오 슬라이더2*/
+.slideup {
+    animation-name: slideup;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        transform: translate(0, 50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%, -50%);
+    }
+}
+
+/*비디오 슬라이더2끝*/
+
+
+/*비디오 슬라이더3*/
+.slidego3 {
+    animation-name: slidego3;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slidego3 {
+    0% {
+        opacity: 0;
+        transform: translate(-550%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%, 2250%);
+    }
+}
+
+/*비디오 슬라이더3끝*/
+
+
+
+
+/*///////// 메인 ///////////*/
+
+
+
+
+
+/*  ///////블랙///////////*/
+
+#black {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+
+
+/* ////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1350px) {
+
+    iframe {
+        width: 100%;
+        height: 150vh;
+        border: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:1280px) {
+
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font: bold 2.0rem/150% "abril fatface";
+    }
+
+    h1 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 3.5rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 2.9rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 2.2rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 1.4rem/150% "abril fatface";
+    }
+
+
+
+
+
+
+}
+
+
+
+/*///////// 섹션5///////////*/
+#section5 > div:first-of-type h2 {
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "Abril Fatface";
+    text-align: center;
+    margin-top: 20%;
+}
+
+#section5 a {
+    font-size: 2.3rem;
+}
+
+#section5 a span {
+    font-size: 1.8rem
+}
+
+
+iframe {
+    width: 100%;
+    height: 190vh;
+    border: none;
+}
+
+
+#section7 p {
+    font: 1.2rem/180% "Noto Sans Kr"
+}
+
+#section7 > div {
+    width: 90%;
+}
+
+#who2 p {
+    text-align: center;
+    line-height: 250%;
+    font: 1.1rem/180% "Noto Sans Kr"
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+
+
+
+
+    /*///////// 섹션4///////////*/
+
+
+
+
+    #section5 a {
+        font-size: 1.5rem;
+    }
+
+    #section5 a span {
+        font-size: 1.0rem
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:820px) {}
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font: bold 2.0rem/150% "abril fatface";
+    }
+
+    h1 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 3.5rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 3.2rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 2.9rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 2.2rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 1.4rem/150% "abril fatface";
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:720px) {
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font: bold 2.0rem/150% "abril fatface";
+    }
+
+    h1 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 1.8rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 2.2rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 1.9rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 1.7rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 0.9rem/150% "abril fatface";
+    }
+
+
+
+
+    #section5 a {
+        font-size: 1.2rem;
+    }
+
+    #section5 a span {
+        font-size: 0.8rem
+    }
+
+    #section7 a {
+        font-size: 1.5rem;
+    }
+
+    #section7 a span {
+        font-size: 1.2rem
+    }
+
+    #section5 > div {
+        width: 95%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:680px) {
+
+
+
+    #section7 p {
+        font: 0.7rem/180% "Noto Sans Kr"
+    }
+
+    #section7 > div {
+        width: 90%;
+    }
+
+    #who2 p {
+        text-align: center;
+        line-height: 250%;
+        font: 0.6rem/180% "Noto Sans Kr"
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:460px) {
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font: bold 2.0rem/150% "abril fatface";
+    }
+
+    h1 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 1.8rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 1.7rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 1.6rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 1.5rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 0.9rem/150% "abril fatface";
+    }
+
+
+
+
+
+
+    #section5 > div {
+        width: 85%;
+    }
+
+    #section5 a {
+        font-size: 1.2rem;
+        line-height: 130%
+    }
+
+    #section5 a span {
+        font-size: 1.0rem
+    }
+
+    #section5 > div:nth-of-type(2) {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        padding-bottom: 12%;
+    }
+
+    /* == 홈페이지 이미지*/
+    #section5 > div > div {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        margin-top: 15%;
+    }
+
+    #section5 > div > div:nth-of-type(1) {
+        margin-top: 15%;
+    }
+
+    #section5 > div > div:nth-of-type(2) {
+        margin-top: 15%;
+    }
+
+
+
+
+    #whowrapper > div {
+        padding: 2%;
+        width: 97.3%;
+    }
+
+    #whowrapper > div > div > div {
+        width: 45%;
+        padding-left: 5.5%
+    }
+
+    #whowrapper > div:last-of-type > div > div:first-of-type {
+        width: 60%;
+        padding-left: 2.5%
+    }
+
+    #whowrapper > div:last-of-type > div > div:last-of-type {
+        width: 35%;
+        padding-left: 2.5%;
+    }
+
+    #whowrapper > div:last-of-type > div > div > p {
+        text-align: left;
+    }
+
+    #section7 p {
+        font: 1.0rem/180% "Noto Sans Kr"
+    }
+
+    #section7 > div {
+        width: 90%;
+    }
+
+    #who2 p {
+        text-align: center;
+        line-height: 250%;
+        font: 0.6rem/180% "Noto Sans Kr"
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:360px) {
+
+    #subject2 {
+        width: 68% !important;
+    }
+
+    #subject2 > p {
+        font-size: 0.7rem !important;
+        ;
+    }
+
+    .pp2 {
+        width: 32% !important;
+    }
+
+    .pp2 > p {
+        font-size: 0.5rem !important;
+        ;
+    }
+
+    #whowrapper > div > div > div {
+        width: 45%;
+        padding-left: 5.5%
+    }
+
+    #whowrapper > div:last-of-type > div > div:first-of-type {
+        width: 60%;
+        padding-left: 2.5%
+    }
+
+    #whowrapper > div:last-of-type > div > div:last-of-type {
+        width: 35%;
+        padding-left: 2.5%
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* latin-ext */
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v11/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v11/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

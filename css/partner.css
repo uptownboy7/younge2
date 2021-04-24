@@ -1,0 +1,734 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font: 10pt/180% "noto sans kr";
+    color: black;
+    background: #191919;
+    ;
+    scroll-behavior: smooth;
+    border: 1px solid #191919;
+    margin: auto;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: aliceblue;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    font: bold 2.5rem/150% "Noto Sans KR";
+}
+
+p {
+    font: bold 1.6rem/180% "Noto Sans KR";
+}
+
+h1 {
+    font: 8.5rem/180% "abril fatface";
+}
+
+h2 {
+    font: 4.5rem/150% "abril fatface";
+}
+
+h3 {
+    font: 4.5rem/150% "abril fatface";
+}
+
+h4 {
+    font: 3.0rem/150% "abril fatface";
+}
+
+h5 {
+    font: 2.0rem/150% "abril fatface";
+}
+
+h6 {
+    font: 1.2rem/150% "abril fatface";
+}
+
+.smallp {
+    font: bold 1.5rem/200% "Noto Sans KR";
+}
+
+body > div {
+    width: 100%;
+    ;
+    background: #191919
+}
+
+#layout {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/************헤더************/
+#header1 {
+    width: 100%
+}
+
+
+
+
+
+#idesign {
+    width: 100%;
+    margin-top: 20%;
+    padding-bottom: 20%;
+}
+
+#idesign > div > h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#idesign > div > h2 > span {
+    color: bisque;
+}
+
+
+/************헤더끝************/
+
+
+
+
+
+
+
+/*///////// 메인 ///////////*/
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+main > div {
+    padding-top: 90px;
+    background-image: url("../images/minipattern2.jpg") !important;
+    ;
+    background-repeat: repeat;
+}
+
+/*///////// 섹션1///////////*/
+#section1 {
+    width: 100%;
+    position: relative;
+}
+
+#section1 > div {
+    width: 70%;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 30px;
+    display: block;
+    ;
+    margin: auto;
+}
+
+
+
+/*********첫번째 단락*********/
+#whoo {
+    padding-left: 5%;
+    padding-top: 9%;
+}
+
+#whoo > h2 {
+    color: #f82c47;
+}
+
+#whowrapper {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 9%;
+    ;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #f82c47;
+}
+
+#whowrapper > div {
+    padding: 2%;
+    width: 33.3%;
+}
+
+#whowrapper > div > div {
+    display: flex;
+    margin-top: 14%;
+    padding-bottom: 5%;
+}
+
+#whowrapper > div > div > div:nth-of-type(1) {
+    flex: 1
+}
+
+#whowrapper > div > div > div:nth-of-type(2) {
+    flex: 1
+}
+
+#whowrapper h4 {
+    text-align: left;
+    border-bottom: 2px solid #f82c47;
+    color: #f82c47;
+}
+
+.yell2 {
+    color: #f82c47;
+}
+
+#yell1 {
+    background: #f82c47;
+    color: #9e9e9e;
+}
+
+#subject {}
+
+#whowrapper > div > div > div:nth-of-type(1) > img {
+    width: 100%;
+}
+
+#pp p {
+    font-weight: normal;
+    padding-left: 8%;
+}
+
+#pp p:first-of-type {
+    font-weight: normal;
+    padding-top: 5%
+}
+
+#pp p > span {
+    font-weight: bold;
+}
+
+#who2 > h4 {
+    color: #f82c47;
+    padding-left: 5%;
+}
+
+#subject3 > p:first-of-type > span {
+    font-weight: normal;
+}
+
+/*************************/
+
+
+
+
+
+#myskills h2 {
+    color: transparent;
+    background: transparent;
+}
+
+#myskills span {
+    color: transparent;
+    background: transparent;
+}
+
+
+
+
+
+
+/*********섹션2*********/
+#section2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#etc {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#etc img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////// 메인 ///////////*/
+
+
+
+
+
+
+
+/*  ///////블랙///////////*/
+
+#black {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+
+
+
+
+/* ////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1280px) {
+
+
+
+    a {
+        text-decoration: none;
+        font: bold 2.5rem/150% "Noto Sans KR";
+    }
+
+    p {
+        font: bold 0.9rem/150% "Noto Sans KR";
+    }
+
+    h1 {
+        font: 5.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 2.0rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 2.9rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 1.5rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 1.0rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 0.8rem/150% "abril fatface";
+    }
+
+    .smallp {
+        font: bold 0.7rem/190% "Noto Sans KR";
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+
+
+
+    h3 {
+        font: 3.9rem/150% "abril fatface";
+    }
+
+    #whowrapper > div {
+        padding: 3px;
+        width: 50%;
+    }
+
+    #section1 > div {
+        width: 80%;
+        position: relative;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: block;
+        ;
+        margin: auto;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:720px) {
+
+    a {
+        text-decoration: none;
+        font: bold 2.5rem/150% "Noto Sans KR";
+    }
+
+    p {
+        font: bold 1pt/150% "Noto Sans KR";
+    }
+
+    h1 {
+        font: 4.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 1.7rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 3.4rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 1.5rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 1.0rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 0.8rem/150% "abril fatface";
+    }
+
+    .smallp {
+        font: bold 0.7rem/190% "Noto Sans KR";
+    }
+
+
+
+
+    /*********첫번째 단락*********/
+
+
+
+
+
+
+
+
+    /*************************/
+
+    #whowrapper > div {
+        padding: 3px;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:460px) {
+
+    a {
+        text-decoration: none;
+        font: bold 2.5rem/150% "Noto Sans KR";
+    }
+
+    p {
+        font: bold 0.8rem/150% "Noto Sans KR";
+    }
+
+    h1 {
+        font: 5.5rem/150% "abril fatface";
+    }
+
+    h2 {
+        font: 2.0rem/150% "abril fatface";
+    }
+
+    h3 {
+        font: 2.8rem/150% "abril fatface";
+    }
+
+    h4 {
+        font: 1.5rem/150% "abril fatface";
+    }
+
+    h5 {
+        font: 1.0rem/150% "abril fatface";
+    }
+
+    h6 {
+        font: 0.8rem/150% "abril fatface";
+    }
+
+    .smallp {
+        font: bold 0.7rem/190% "Noto Sans KR";
+    }
+
+    /*섹션111111*/
+
+
+
+    #whowrapper > div {
+        padding: 3px;
+        width: 50%;
+    }
+
+    #section1 > div {
+        width: 90%;
+        position: relative;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: block;
+        ;
+        margin: auto;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    src: url("/younge/font/NanumGothic.woff");
+    font-family: "noto sans kr";
+}
+
+
+@font-face {
+    src: url("/younge/font/NanumMyeongjo.woff");
+    font-family: "나눔명조";
+}
+
+@font-face {
+    src: url("/younge/font/Nanum GaRamYeonGgoc.woff");
+    font-family: "Nanum GaRamYeonGgoc";
+}
+
+
+
+/* latin-ext */
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v11/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v11/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v18/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
